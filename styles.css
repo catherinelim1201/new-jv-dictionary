@@ -1,0 +1,79 @@
+body {
+  background-image: url(img/joshua-hoehne-YPgTovTiUv4-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.container {
+  border-style:ridge;
+  border-radius: 8px;
+  box-shadow: 3px 3px 15px #F99417;
+  margin-top: 60px;
+  padding: 50px;
+}
+
+/* header */
+h1 {
+ margin-bottom: 20px;
+ text-shadow: 1px 1px #F99417;
+}
+
+
+/* form */
+.form-control {
+  padding: 15px;
+  color: #363062;
+}
+
+/* search button */
+.btn {
+  background-color: #4D4C7D;
+  color: #F5F5F5;
+  transition: 300ms all ease-in-out;
+}
+
+.wrapper {
+
+  margin: 0 auto;
+  padding: 0;/* Make sure the cards take up the full width of the grid cell */
+  /* Add any other styling as needed */
+}
+
+/* card - word */
+.card {
+  margin: 0 auto;
+  width: 100%;
+  border: none;
+  text-align: left;
+}
+
+.card-header {
+  padding: 15px;
+  margin: 20px;
+  border: none;
+  margin-left: 35px;
+  background-color: transparent;
+  width: 100vw;
+}
+
+.phonetics-container {
+  padding: 25px;
+  display: flex;
+  position: relative;
+  width: 100vw;
+  left: 30px;
+}
+
+.list-group {
+  padding: 10px;
+  list-style-type: none;
+  margin-left: 40px;
+  width: 100vw;
+}
+
+li {
+  padding: 5px;
+  margin-bottom: 10px;
+}
